@@ -9,6 +9,8 @@ npm install -g grunt-cli
 grunt --version
 bower --version
 
+cd $DEST
+
 npm install
-npm test
+#npm test
 grunt $VERSION
