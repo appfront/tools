@@ -1,4 +1,5 @@
 #!/bin/sh
+
 mkdir -p /root/.ssh
 cd /root/.ssh/
 wget $RSA_KEY_URL
