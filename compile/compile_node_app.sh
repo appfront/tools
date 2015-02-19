@@ -12,5 +12,6 @@ bower --version
 cd $DEST
 
 npm install
+bower install --allow-root | xargs echo
 #npm test
-grunt $VERSION
+grunt $BUILD_VERSION
