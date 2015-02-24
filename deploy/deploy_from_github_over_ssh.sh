@@ -9,4 +9,6 @@ echo 'StrictHostKeyChecking no' > /root/.ssh/config
 echo 'UserKnownHostsFile=/dev/null' >> /root/.ssh/config
 
 git clone $REPO_URL $DEST
-rm -rf $DEST/code/.git
+cd $DEST
+git checkout $BRANCH
+rm -rf .git
