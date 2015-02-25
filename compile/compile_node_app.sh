@@ -16,5 +16,5 @@ bower install --allow-root | xargs echo
 #npm test
 grunt $BUILD_VERSION
 mv $DEST/dist /opt
-rm -rf $DEST/*
-mv /opt/dist/* $DEST
+rm -rf /var/www/*
+mv /opt/dist/* /var/www/
