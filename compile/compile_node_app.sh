@@ -17,4 +17,4 @@ bower install --allow-root | xargs echo
 grunt $BUILD_VERSION
 mv $DEST/dist /opt
 rm -rf /var/www/*
-mv /opt/dist/* /var/www/
+mv /opt/dist /var/www/$APP_NAME
