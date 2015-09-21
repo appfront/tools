@@ -2,6 +2,6 @@
 
 cd /tmp
 wget $URL
-unzip $NAME.zip -d /tmp/$NAME
+unzip $NAME.zip
 mv $NAME/* $DEST
 exit 0
